@@ -20,7 +20,7 @@ const questions = [
     {
         type: "input",
         name: "description",
-        message: "Provide a description of the project (Required)",
+        message: "Provide a short description explaining the what, why, and how of your project. (Required)",
         validate: projectDescription => {
             if (projectDescription) {
                 return true
@@ -30,29 +30,15 @@ const questions = [
             }
         }
     },
-    // {
-    //     type: "list",
-    //     name: "contents",
-    //     message: "List items for the Table of Contents (Required)",
-    //     choices: ["description", "installation", "usage", "license", "contributing", "tests", "questions"],
-    //     validate: contentsInput => {
-    //         if (contentsInput) {
-    //             return true;
-    //         } else {
-    //             console.log("Please enter the table of contents for the project!");
-    //             return false
-    //         }
-    //     }
-    // },
     {
         type: "input",
         name: "installation",
-        message: "Please provide installation instructions for the project",
+        message: "What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running. (Required)",
     },
     {
         type: "input",
         name: "usage",
-        message: "What are the terms for usage? (Required)",
+        message: "Provide instructions and examples for use (Required).",
         validate: usageInput => {
             if (usageInput) {
                 return true
@@ -79,7 +65,7 @@ const questions = [
     {
         type: "input",
         name: "contributing",
-        message: "Who are the contributing authors?",
+        message: "List your collaborators, if any, with links to their GitHub profiles.",
         validate: contributingAuthors => {
             if (contributingAuthors) {
                 return true
