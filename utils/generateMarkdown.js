@@ -50,8 +50,8 @@ function generateMarkdown(data) {
   ## Tests
   ${data.tests}
   ## Questions
-  Got any questions for the author [${data.questions}](https://github.com/${data.questions})?  
-  Email the author at: [${data.email}](mailto:${data.email})
+  Got any questions? Email the author at: [${data.email}](mailto:${data.email})  
+  Author's GitHub profile: [${data.questions}](https://github.com/${data.questions})
 `;
 }
 
