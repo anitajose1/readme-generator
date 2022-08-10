@@ -1,8 +1,8 @@
-# bvcfdsz
+# README Generator
   
-  [![license](https://img.shields.io/static/v1?label=License&message=MPL-2.0&color=blue)](https://opensource.org/licenses/MPL-2.0)
+  [![license](https://img.shields.io/static/v1?label=License&message=MIT&color=blue)](https://opensource.org/licenses/MIT)
   ## Description
-   bvcfxz
+  A README is an essential component of a project as it helps the user understand what the application is for, how to install and use it, and how to make contributions. The goal of this project was to create a command-line application that dynamically geneates a professional README.md file from a user's input using the Inquirer package.
   ## Table of Contents
   [Description](#description)  
   [Installation](#installation)  
@@ -12,16 +12,16 @@
   [Tests](#tests)  
   [Questions](#questions)
   ## Installation
-  bcfdsz
+  Open the project's repositiory, click the "Code" dropdown button, copy the SSH key, and input "git clone <SSH key>" in the root directory in the terminal. This will create a local copy of the project, which you can use.
   ## Usage
-  bvfd
+  You can edit, add, or delete the README file after you install it.
   ## License
-  MPL-2.0
-  Copyright (c) Anita Jose. All rights reserved. Licensed under the MPL-2.0 license.
+  MIT
+  Copyright (c) Anita Jose. All rights reserved. Licensed under the MIT license.
   ## Contributing
-  bfdsx
+  N/A
   ## Tests
-  bfd
+  N/A
   ## Questions
   Got any questions for the author [anitajose1](https://github.com/anitajose1)?  
-  Email the author at: [bvfds](mailto:bvfds)
+  Email the author at: [anitajose119@gmail.com](mailto:anitajose119@gmail.com)

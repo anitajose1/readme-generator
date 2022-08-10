@@ -30,20 +30,6 @@ const questions = [
             }
         }
     },
-    // {
-    //     type: "list",
-    //     name: "contents",
-    //     message: "Add a Table of Contents (Required)",
-    //     choices: ["Description", "Installation", "Usage", "License"],
-    //     validate: contents => {
-    //         if (contents) {
-    //             return true
-    //         } else {
-    //             console.log("Please enter a description for the project!");
-    //             return false
-    //         }
-    //     }
-    // },
     {
         type: "input",
         name: "installation",
@@ -87,7 +73,7 @@ const questions = [
     {
         type: "input",
         name: "contributing",
-        message: "List your collaborators, if any, with links to their GitHub profiles.",
+        message: "List your collaborators, if any, with links to their GitHub profiles. (Required)",
         validate: contributingAuthors => {
             if (contributingAuthors) {
                 return true
@@ -100,7 +86,7 @@ const questions = [
     {
         type: "input",
         name: "tests",
-        message: "Write tests for your application and provide examples on how to run them.",
+        message: "Write tests for your application and provide examples on how to run them. (Required)",
         validate: tests => {
             if (tests) {
                 return true
