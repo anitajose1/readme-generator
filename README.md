@@ -12,7 +12,7 @@
   [Tests](#tests)  
   [Questions](#questions)
   ## Installation
-  Open the project's repository, click the "Code" dropdown button, copy the SSH key, and input "git clone <SSH key>" in the terminal in the root directory. This will create a local copy of the project, which you can use.
+  Open the project's repository, click the "Code" dropdown button, copy the SSH key, and input 'git clone SSH key' in the terminal in the root directory. This will create a local copy of the project, which you can use.
   ## Usage
   You can edit, add, or delete sections in the README file after you create a local copy.
   Click the following link for a demo of how to generate a README using the app:
